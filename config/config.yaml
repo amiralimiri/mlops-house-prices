@@ -1,0 +1,12 @@
+data_ingestion:
+  bucket_name: "house-prices-advanced-regression-techniques"
+  storage_path: ".s3.ir-tbz-sh1.arvanstorage.ir"
+  object_name_train: "train.csv"
+  object_name_test: "test.csv"
+  train_ratio: 0.9
+  artifact_dir: "artifacts"
+
+model_training:
+  n_estimators: 500
+  max_samples: 0.7
+  n_jobs: -1
